@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Model">
+      <UniqueIdentifier>{0216927e-3813-4087-b688-65ef45058062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Render">
+      <UniqueIdentifier>{cbc760ce-e760-426b-afb2-2216b74abb5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Shadow Map">
+      <UniqueIdentifier>{b8cac02c-522e-4a0f-bf44-0e3221c81c4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Window App">
+      <UniqueIdentifier>{5c9c0e29-edb4-4e88-8b93-1958d38ce531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\extern">
+      <UniqueIdentifier>{297726c4-b567-4106-91c2-6ca552d80db8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Input">
+      <UniqueIdentifier>{250b3b35-6f99-42a6-80ff-1faa21d2bdd1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="model.h">
+      <Filter>Файлы заголовков\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow_map_depth_image.h">
+      <Filter>Файлы заголовков\Shadow Map</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow_map_framebuffer.h">
+      <Filter>Файлы заголовков\Shadow Map</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow_map_render_pass.h">
+      <Filter>Файлы заголовков\Shadow Map</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow_map_descriptors.h">
+      <Filter>Файлы заголовков\Shadow Map</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow_map_pipeline.h">
+      <Filter>Файлы заголовков\Shadow Map</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow_map_uniform_buffer.h">
+      <Filter>Файлы заголовков\Shadow Map</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow_map_shaders_loader.h">
+      <Filter>Файлы заголовков\Shadow Map</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow_map.h">
+      <Filter>Файлы заголовков\Shadow Map</Filter>
+    </ClInclude>
+    <ClInclude Include="model_mesh.h">
+      <Filter>Файлы заголовков\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="model_input_description.h">
+      <Filter>Файлы заголовков\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="model_transit_command_buffer.h">
+      <Filter>Файлы заголовков\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="model_vertex_buffer.h">
+      <Filter>Файлы заголовков\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="model_indices_buffer.h">
+      <Filter>Файлы заголовков\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="model_shaders_loader.h">
+      <Filter>Файлы заголовков\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="model_uniform_buffer.h">
+      <Filter>Файлы заголовков\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="window_app.h">
+      <Filter>Файлы заголовков\Window App</Filter>
+    </ClInclude>
+    <ClInclude Include="window_app_window.h">
+      <Filter>Файлы заголовков\Window App</Filter>
+    </ClInclude>
+    <ClInclude Include="window_app_vulkan.h">
+      <Filter>Файлы заголовков\Window App</Filter>
+    </ClInclude>
+    <ClInclude Include="window_app_swap_chain.h">
+      <Filter>Файлы заголовков\Window App</Filter>
+    </ClInclude>
+    <ClInclude Include="window_app_render_pass.h">
+      <Filter>Файлы заголовков\Window App</Filter>
+    </ClInclude>
+    <ClInclude Include="window_app_depth_image.h">
+      <Filter>Файлы заголовков\Window App</Filter>
+    </ClInclude>
+    <ClInclude Include="window_app_framebuffer.h">
+      <Filter>Файлы заголовков\Window App</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sync.h">
+      <Filter>Файлы заголовков\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow_map_matrices.h">
+      <Filter>Файлы заголовков\Shadow Map</Filter>
+    </ClInclude>
+    <ClInclude Include="model_matrices.h">
+      <Filter>Файлы заголовков\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="model_descriptors.h">
+      <Filter>Файлы заголовков\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="model_pipeline.h">
+      <Filter>Файлы заголовков\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny_obj_loader.h">
+      <Filter>Файлы заголовков\extern</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow_map_command_buffer.h">
+      <Filter>Файлы заголовков\Shadow Map</Filter>
+    </ClInclude>
+    <ClInclude Include="model_command_buffer.h">
+      <Filter>Файлы заголовков\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>Файлы заголовков\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard_input.h">
+      <Filter>Файлы заголовков\Input</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="application.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
